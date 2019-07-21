@@ -1,12 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 git branch# Git Merge Conflicts
-=======
+
 # Git Merge Conflicts
->>>>>>> doc-brown
-=======
+
+
 # Git Merge Conflicts
->>>>>>> marty-mcfly
 
 ## Learning Goals
 
