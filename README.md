@@ -117,17 +117,15 @@ page with just a placeholder avatar. Marty and Doc should not be there.
 
 ### Step 3: Merge!
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 You're going to add both the doc-brown branch and the marty-mcfly branch to the
 master branch using merge. Merge the `doc-brown` branch first by running `git
 merge doc-brown -m "merge doc brown"` in the terminal.
-=======
+
 You're going to add both the doc-brown branch and the marty-mcfly branch to the master branch using merge. Merge the `doc-brown` branch first by running `git merge doc-brown -m "merge doc brown"` in the terminal.
->>>>>>> doc-brown
-=======
+
+
 You're going to add both the doc-brown branch and the marty-mcfly branch to the master branch using merge. Merge the `doc-brown` branch first by running `git merge doc-brown -m "merge doc brown"` in the terminal.
->>>>>>> marty-mcfly
+
 
 When you merge `doc-brown` into your `master` branch, your terminal should print
 a readout that looks something like this:
@@ -199,8 +197,8 @@ should see something that looks like this:
     <div class="clear"></div>
   </li>
   <!-- End Profile -->
-=======
->>>>>>> marty-mcfly
+
+
 ... (MORE CODE) ...
 ```
 
@@ -210,9 +208,7 @@ Remember, Git does its best to merge the code, but sometimes it just doesn't
 work. You need to complete the merge yourself by manually adjusting the code.
 Git gives you a few hints to help us out:
 
-- `<<<<<<< HEAD` - the beginning of the original branch (`master`)
-- `=======` - the end of the original branch/the beginning of the branch being merged in (`marty-mcfly`)
-- `>>>>>>> marty-mcfly` - the end of the new branch ( `marty-mcfly`)
+-
 
 Take your time and shift the code around, separating the `MARTY MCFLY` and `DOC
 BROWN` code blocks. Use the markers from git as a guide.
